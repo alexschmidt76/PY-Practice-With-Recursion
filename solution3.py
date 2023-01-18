@@ -2,7 +2,7 @@
 def fibonacci_sequence(n):
     # error case
     if n <= 0:
-        print('Input must be greater or equal to zero.')
+        print('Input must be greater than zero.')
         return
     # base cases
     elif n == 1:
